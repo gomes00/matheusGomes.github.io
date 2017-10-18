@@ -1,0 +1,89 @@
+/*===== FOLHA DE ESTILO =====*/
+html, body{
+	height: 100%
+}
+
+/*===== ids =====*/
+#text1{
+	margin-top: 90px;
+	
+}
+
+
+/*===== class =====*/
+
+/*= MENU =*/
+.navbar{
+	border-bottom: 3px solid #339a7a;
+}
+.color-bar{
+	background-color: #242927;
+}
+
+.navbar-brand{
+	padding: 5px 15px; 
+}
+
+.navbar-nav>li>a {
+	color: white;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 20px 15px;
+}
+.navbar-nav>li>a:hover{
+	color: #339a7a;
+	font-size: 16px;
+	transition: font-size 0.2s;
+	background: transparent;
+}
+
+.img_logo{
+	width: 132px;
+	height: 40px;
+	display: block;
+	background-size: contain;
+	color: white;
+}
+
+/*= SITE =*/
+.page-header{
+	border-bottom-color:  #242927;
+}
+.nav-tabs{
+	border-bottom: none;
+
+}
+
+/*===== media queri =====*/
+
+@media (max-width: 768px) {
+  #buttonMenu{
+		margin-top: -40px;
+		border: 1px solid white;
+	}
+}
+
+/*===== tipografias =====*/
+
+#text1 h1{
+	color: #339a7a;
+	font-weight: 800;
+}
+.nav-tabs>li>a{
+	color: #242927;
+	border-bottom:3px solid #339a7a;
+	font-size: 20px;
+}
+
+.nav-tabs>li>a:hover{
+	color: #339a7a;
+	border-color: #339a7a;
+	background: transparent;
+}
+.nav-tabs>li>a:focus {
+	color: #339a7a;
+	border:0.5px 3px  solid  #339a7a; 
+	border-bottom-color: #339a7a;
+	background: transparent;
+}
+
